@@ -1,0 +1,49 @@
+<!-- ========================= index.html ========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Interview Preparation Platform</title>
+
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🤖 AI Interview Preparation</h1>
+
+    <div class="card">
+
+      <h2 id="question">Click Start Interview</h2>
+
+      <button onclick="startInterview()">Start Interview</button>
+
+      <textarea id="answer"
+      placeholder="Type your answer here..."></textarea>
+
+      <button onclick="checkAnswer()">Submit Answer</button>
+
+      <div id="feedback"></div>
+
+      <div class="score-box">
+        Score: <span id="score">0</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- JS FILE -->
+  <script src="script.js"></script>
+
+</body>
+</html>
